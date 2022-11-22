@@ -2,21 +2,21 @@
 
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-body {
-    overflow-x:hidden;
-  }
+
     
 
             /* ---------------------- Main Nav and viewport ------------------- */
 
 @media (max-width: 900px) {
-    
+    *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+  }
+    body {
+       overflow-x:hidden;
+  }
            
     .container{
         position: relative; 
@@ -454,7 +454,6 @@ body {
         display: block;
         padding: 5px;
         text-align: center;
-        width: 200px;
         margin-inline: 10px;
         margin-bottom: 20px;
     }
