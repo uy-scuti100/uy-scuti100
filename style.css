@@ -391,9 +391,6 @@
         align-items: center;
         margin-top:  500px;
         background-color: none;
-        
-    ;
-    
     }
 
     .soc-icons .icons{
@@ -433,10 +430,10 @@
 
     #preloader{
         background: #000 url(./images/828.gif) no-repeat center center;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         position: fixed;
-        z-index: 100;
+        z-index: 200;
 
     }
 
